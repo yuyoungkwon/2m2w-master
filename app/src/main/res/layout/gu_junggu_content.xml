@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="덕수궁"
+            android:id="@+id/button1"
+            android:onClick="button1Click"
+            android:layout_x="45dp"
+            android:layout_y="30dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="배재학당동관"
+            android:id="@+id/button2"
+            android:onClick="button2Click"
+            android:layout_x="210dp"
+            android:layout_y="30dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="서울이화여자고등학교 심슨 기념관"
+            android:id="@+id/button3"
+            android:onClick="button3Click"
+            android:layout_x="45dp"
+            android:layout_y="160dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="안중근의사 기념관"
+            android:id="@+id/button4"
+            android:onClick="button4Click"
+            android:layout_x="210dp"
+            android:layout_y="160dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="서울 명동성당"
+            android:id="@+id/button5"
+            android:onClick="button5Click"
+            android:layout_x="45dp"
+            android:layout_y="290dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="서울 정동교회"
+            android:id="@+id/button6"
+            android:onClick="button6Click"
+            android:layout_x="210dp"
+            android:layout_y="290dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="성공회 서울성당"
+            android:id="@+id/button7"
+            android:onClick="button7Click"
+            android:layout_x="45dp"
+            android:layout_y="420dp" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

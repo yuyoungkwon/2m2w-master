@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="경복궁"
+        android:id="@+id/button1"
+        android:onClick="button1Click"
+        android:layout_x="45dp"
+        android:layout_y="30dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="창덕궁"
+        android:id="@+id/button2"
+        android:onClick="button2Click"
+        android:layout_x="210dp"
+        android:layout_y="30dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="창경궁"
+        android:id="@+id/button3"
+        android:onClick="button3Click"
+        android:layout_x="45dp"
+        android:layout_y="160dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="박노수가옥"
+        android:id="@+id/button4"
+        android:onClick="button4Click"
+        android:layout_x="210dp"
+        android:layout_y="160dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="탑골공원"
+        android:id="@+id/button5"
+        android:onClick="button5Click"
+        android:layout_x="45dp"
+        android:layout_y="290dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="한양도성"
+        android:id="@+id/button6"
+        android:onClick="button6Click"
+        android:layout_x="210dp"
+        android:layout_y="290dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="석파정"
+        android:id="@+id/button7"
+        android:onClick="button7Click"
+        android:layout_x="45dp"
+        android:layout_y="420dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="황학정"
+        android:id="@+id/button8"
+        android:onClick="button8Click"
+        android:layout_x="210dp"
+        android:layout_y="420dp" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:text="서울 문묘와 성균관"
+        android:id="@+id/button9"
+        android:onClick="button9Click"
+        android:layout_x="45dp"
+        android:layout_y="550dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="서울 중앙고등학교 본관"
+            android:id="@+id/button10"
+            android:onClick="button10Click"
+            android:layout_x="210dp"
+            android:layout_y="550dp" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

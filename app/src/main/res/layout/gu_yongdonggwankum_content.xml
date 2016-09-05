@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <AbsoluteLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="구 벨기에 영사관"
+            android:id="@+id/button1"
+            android:onClick="button1Click"
+            android:layout_x="45dp"
+            android:layout_y="30dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="호암산성"
+            android:id="@+id/button2"
+            android:onClick="button2Click"
+            android:layout_x="210dp"
+            android:layout_y="30dp" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="구 경성방직 사무동"
+            android:id="@+id/button3"
+            android:onClick="button3Click"
+            android:layout_x="45dp"
+            android:layout_y="160dp" />
+
+    </AbsoluteLayout>
+
+</ScrollView>
