@@ -40,6 +40,7 @@ public class Heritage_information extends AppCompatActivity {
 
         Intent intent = getIntent();
         search_name = intent.getStringExtra("name");
+        setTitle(search_name);
 
         Log.i("select!!!",""+search_name);
 

@@ -19,15 +19,19 @@
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".Intro"
+            android:label="heritage"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="서울시 문화재"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"/>
         <activity android:name="Heritage_information" android:label="@string/app_name"/>
         <activity android:name="gu_Jongro" android:label="종로구"/>
         <activity android:name="gu_Junggu" android:label="중구"/>
@@ -42,7 +46,12 @@
         <activity
             android:name="gu_YongDongGwanKum"
             android:label="영등포/동작/관악/금천구" />
-        <activity android:name=".daum_map"/>
+        <activity android:name=".daum_map"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

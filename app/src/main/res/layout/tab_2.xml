@@ -135,5 +135,20 @@
         android:layout_alignEnd="@+id/button3"
         android:layout_x="270dp"
         android:layout_y="293dp" />
+    <AutoCompleteTextView
+        android:layout_width="217dp"
+        android:layout_height="54dp"
+        android:layout_x="30dp"
+        android:layout_y="0dp"
+        android:hint="ex)경복궁, 창덕궁"
+        android:id="@+id/search_heritage"/>
+
+    <Button
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:id="@+id/query"
+        android:layout_x="249dp"
+        android:layout_y="4dp" />
 
 </AbsoluteLayout>

@@ -19,6 +19,8 @@ public class Tab_1 extends Fragment implements View.OnClickListener{
     View v;
     Button button1;
 
+
+
     public Tab_1(Context mContext) {
         // Required empty public constructor
         this.mContext = mContext;
@@ -29,17 +31,22 @@ public class Tab_1 extends Fragment implements View.OnClickListener{
         v =  inflater.inflate(R.layout.tab_1, container, false);
 
         button1 = (Button) v.findViewById(R.id.map);
+
         button1.setOnClickListener(this);
+
+
+
         return  v;
+
     }
+
+
     public void onClick(View V){
 
         Intent myIntent = new Intent(mContext,daum_map.class);
 
         startActivity(myIntent);
     }
-
-
 
 }
 
